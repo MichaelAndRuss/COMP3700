@@ -1,1 +1,1 @@
-# COMP3700
+# COMP3700 Group Project
