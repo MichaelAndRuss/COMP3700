@@ -26,6 +26,14 @@ public class Product {
       tax = 00.00;
       expiration = "";
    }
+   public Product() {
+      productID = 0;
+      name = "";
+      price = 00.00;
+      quantity = 0;
+      tax = 00.00;
+      expiration = ""; 
+   }
    
    public int getID() {
       return productID;
