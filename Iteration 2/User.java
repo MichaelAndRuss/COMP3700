@@ -3,14 +3,14 @@ public class User {
    private String username;
    private String password;
    private String displayName;
-   private boolean isManager;
+   private String isManager;
    
    public User() {
       userID = 0;
       username = "";
       password = "";
       displayName = "";
-      isManager = false;
+      isManager = "";
    }
    
    public int getUserID() {
@@ -38,11 +38,10 @@ public class User {
       displayName = displayNameIn;
    }
    
-   public boolean isManager() {
-      isManager = false;
+   public String isManager() {
       return isManager;
    }
-   public void setManager(boolean manager) {
+   public void setManager(String manager) {
       isManager = manager;
    }
    
